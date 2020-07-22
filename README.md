@@ -14,6 +14,16 @@ Script ini berbasis Codeigniter 4.
 - Buka file `/docs/words.txt`, file ini berisi kata-kata yang akan diimport ke database. Isi sebanyak-banyaknya.
 - Kalau di localhost, install [Composer](https://getcomposer.org/)
 
+## Penggunaan Pertama Kali
+### Import Kata Ke Database
+- aaa
+
+### Update Data Domain
+- bbb
+
+### Lihat Hasil
+- ccc
+
 ## Server Requirements (copas dari CI 4)
 
 PHP version 7.2 or higher is required, with the following extensions installed: 
