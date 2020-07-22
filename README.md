@@ -12,6 +12,7 @@ Script ini berbasis Codeigniter 4.
 - Buka file `/.env`, sesuaikan path `app.baseURL`
 - Pengaturan nama database, username mysql, password mysql, buka file `/.env`, sesuaikan nilai dari `database.default.`
 - Buka file `/docs/words.txt`, file ini berisi kata-kata yang akan diimport ke database. Isi sebanyak-banyaknya.
+- Kalau di localhost, install [Composer](https://getcomposer.org/)
 
 ## Server Requirements (copas dari CI 4)
 
