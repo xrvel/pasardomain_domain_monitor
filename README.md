@@ -10,7 +10,8 @@ Script ini berbasis Codeigniter 4.
 - Buat database di phpmyadmin, misal namanya **whoismon**
 - Buka file `/docs/sql.txt`, file ini berisi struktur tabel mysql. import ke database.
 - Buka file `/.env`, sesuaikan path `app.baseURL`
-- Buka file `/.env`, sesuaikan nilai dari `database.default.`
+- Pengaturan nama database, username mysql, password mysql, buka file `/.env`, sesuaikan nilai dari `database.default.`
+- Buka file `/docs/words.txt`, file ini berisi kata-kata yang akan diimport ke database. Isi sebanyak-banyaknya.
 
 ## Server Requirements (copas dari CI 4)
 
