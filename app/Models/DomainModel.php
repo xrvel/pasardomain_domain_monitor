@@ -69,9 +69,10 @@ class DomainModel extends Model
 		if ('expired' == $options['filter']) {
 			$q .= ' expiration_date <= '.time().' AND ';
 			$q .= ' last_check <=  '.$time_limit;
-		} else {
-			//$q .= ' last_check <= '.$time_limit.' ';
+		} else if ('new' == $options['filter']) {
 			$q .= ' last_check = 0 ';
+		} else {
+			$q .= ' last_check <= '.$time_limit.' ';
 		}
 
 		$q .= ' ORDER BY last_check ASC, domain_id ASC ';
