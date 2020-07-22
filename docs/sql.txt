@@ -1,0 +1,40 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jul 22, 2020 at 04:58 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.5
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+--
+-- Database: `whoismon`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `domains`
+--
+
+DROP TABLE IF EXISTS `domains`;
+CREATE TABLE IF NOT EXISTS `domains` (
+  `domain_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `domain_name` varchar(255) NOT NULL DEFAULT '',
+  `is_available` tinyint(1) UNSIGNED NOT NULL DEFAULT 0,
+  `price` bigint(20) NOT NULL DEFAULT 0,
+  `price_note` varchar(255) NOT NULL DEFAULT '',
+  `registrar` varchar(255) NOT NULL DEFAULT '',
+  `nameservers` varchar(500) NOT NULL DEFAULT '',
+  `domain_status` varchar(500) NOT NULL DEFAULT '',
+  `creation_date` bigint(20) UNSIGNED NOT NULL DEFAULT 0,
+  `expiration_date` bigint(20) UNSIGNED NOT NULL DEFAULT 0,
+  `last_check` bigint(20) UNSIGNED NOT NULL DEFAULT 0,
+  PRIMARY KEY (`domain_id`),
+  UNIQUE KEY `domain_name` (`domain_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+COMMIT;
