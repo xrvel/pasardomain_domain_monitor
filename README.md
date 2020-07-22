@@ -9,7 +9,7 @@ Script ini berbasis Codeigniter 4.
 ## Cara Install
 ### Pengaturan Database
 - Buat database di phpmyadmin, misal namanya **whoismon**
-- Buka file `/docs/sql.txt`, file ini berisi struktur tabel mysql. import ke database.
+- Buka file `/docs/sql.txt`, file ini berisi struktur tabel mysql. import ke database menggunakan phpmyadmin.
 - Pengaturan nama database, username mysql, password mysql, buka file `/.env`, sesuaikan nilai dari `database.default.`
 
 ### Lain-lain
@@ -27,7 +27,7 @@ Untuk update data exp date domain dll
 - Buka di browser `http://localhost/CONTOH/pasardomain_domain_monitor/public/cron/update_domains`
 
 ### Lihat Hasil
-- ccc
+- Buka di browser `http://localhost/CONTOH/pasardomain_domain_monitor/public/`
 
 ## Server Requirements (copas dari CI 4)
 
