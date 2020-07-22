@@ -7,19 +7,24 @@ Script ini berbasis Codeigniter 4.
 
 
 ## Cara Install
+### Pengaturan Database
 - Buat database di phpmyadmin, misal namanya **whoismon**
 - Buka file `/docs/sql.txt`, file ini berisi struktur tabel mysql. import ke database.
-- Buka file `/.env`, sesuaikan path `app.baseURL`
 - Pengaturan nama database, username mysql, password mysql, buka file `/.env`, sesuaikan nilai dari `database.default.`
+
+### Lain-lain
+- Buka file `/.env`, sesuaikan path `app.baseURL`
 - Buka file `/docs/words.txt`, file ini berisi kata-kata yang akan diimport ke database. Isi sebanyak-banyaknya.
 - Kalau di localhost, install [Composer](https://getcomposer.org/)
 
 ## Penggunaan Pertama Kali
 ### Import Kata Ke Database
-- aaa
+Untuk import `/docs/words.txt` ke database :
+- Buka di browser `http://localhost/CONTOH/pasardomain_domain_monitor/public/util/insert_domains`
 
 ### Update Data Domain
-- bbb
+Untuk update data exp date domain dll
+- Buka di browser `http://localhost/CONTOH/pasardomain_domain_monitor/public/cron/update_domains`
 
 ### Lihat Hasil
 - ccc
