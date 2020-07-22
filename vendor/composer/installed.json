@@ -1,0 +1,421 @@
+[
+    {
+        "name": "io-developer/php-whois",
+        "version": "4.0.0",
+        "version_normalized": "4.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/io-developer/php-whois.git",
+            "reference": "21a17d83fef83768c06fd7e1884f6898b0047b5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/io-developer/php-whois/zipball/21a17d83fef83768c06fd7e1884f6898b0047b5d",
+            "reference": "21a17d83fef83768c06fd7e1884f6898b0047b5d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=7.2",
+            "true/punycode": "^2.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2020-03-22T21:36:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Iodev\\": "src/Iodev/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sergey Sedyshev",
+                "email": "i.o.developer@gmail.com",
+                "homepage": "https://github.com/io-developer"
+            }
+        ],
+        "description": "PHP WHOIS provides parsed and raw whois lookup of domains and ASN routes. PHP 5.4+ and 7+ compatible ",
+        "homepage": "https://github.com/io-developer/php-whois",
+        "keywords": [
+            "asn",
+            "domain",
+            "info",
+            "lookup",
+            "parser",
+            "php",
+            "query",
+            "routes",
+            "tld",
+            "whois",
+            "црщшы"
+        ]
+    },
+    {
+        "name": "kint-php/kint",
+        "version": "3.3",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kint-php/kint.git",
+            "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kint-php/kint/zipball/335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
+            "reference": "335ac1bcaf04d87df70d8aa51e8887ba2c6d203b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.6"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.0",
+            "phpunit/phpunit": "^4.0",
+            "seld/phar-utils": "^1.0",
+            "symfony/finder": "^2.0 || ^3.0 || ^4.0",
+            "vimeo/psalm": "^3.0"
+        },
+        "suggest": {
+            "ext-ctype": "Simple data type tests",
+            "ext-iconv": "Provides fallback detection for ambiguous legacy string encodings such as the Windows and ISO 8859 code pages",
+            "ext-mbstring": "Provides string encoding detection",
+            "kint-php/kint-js": "Provides a simplified dump to console.log()",
+            "kint-php/kint-twig": "Provides d() and s() functions in twig templates",
+            "symfony/polyfill-ctype": "Replacement for ext-ctype if missing",
+            "symfony/polyfill-iconv": "Replacement for ext-iconv if missing",
+            "symfony/polyfill-mbstring": "Replacement for ext-mbstring if missing"
+        },
+        "time": "2019-10-17T18:05:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "init.php"
+            ],
+            "psr-4": {
+                "Kint\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Vollebregt",
+                "homepage": "https://github.com/jnvsor"
+            },
+            {
+                "name": "Rokas Šleinius",
+                "homepage": "https://github.com/raveren"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/kint-php/kint/graphs/contributors"
+            }
+        ],
+        "description": "Kint - debugging tool for PHP developers",
+        "homepage": "https://kint-php.github.io/kint/",
+        "keywords": [
+            "debug",
+            "kint",
+            "php"
+        ]
+    },
+    {
+        "name": "laminas/laminas-escaper",
+        "version": "2.6.1",
+        "version_normalized": "2.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laminas/laminas-escaper.git",
+            "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/25f2a053eadfa92ddacb609dcbbc39362610da70",
+            "reference": "25f2a053eadfa92ddacb609dcbbc39362610da70",
+            "shasum": ""
+        },
+        "require": {
+            "laminas/laminas-zendframework-bridge": "^1.0",
+            "php": "^5.6 || ^7.0"
+        },
+        "replace": {
+            "zendframework/zend-escaper": "self.version"
+        },
+        "require-dev": {
+            "laminas/laminas-coding-standard": "~1.0.0",
+            "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+        },
+        "time": "2019-12-31T16:43:30+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6.x-dev",
+                "dev-develop": "2.7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Laminas\\Escaper\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Securely and safely escape HTML, HTML attributes, JavaScript, CSS, and URLs",
+        "homepage": "https://laminas.dev",
+        "keywords": [
+            "escaper",
+            "laminas"
+        ]
+    },
+    {
+        "name": "laminas/laminas-zendframework-bridge",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
+            "reference": "fcd87520e4943d968557803919523772475e8ea3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/fcd87520e4943d968557803919523772475e8ea3",
+            "reference": "fcd87520e4943d968557803919523772475e8ea3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.1",
+            "squizlabs/php_codesniffer": "^3.5"
+        },
+        "time": "2020-05-20T16:45:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev",
+                "dev-develop": "1.1.x-dev"
+            },
+            "laminas": {
+                "module": "Laminas\\ZendFrameworkBridge"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/autoload.php"
+            ],
+            "psr-4": {
+                "Laminas\\ZendFrameworkBridge\\": "src//"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Alias legacy ZF class names to Laminas Project equivalents.",
+        "keywords": [
+            "ZendFramework",
+            "autoloading",
+            "laminas",
+            "zf"
+        ],
+        "funding": [
+            {
+                "url": "https://funding.communitybridge.org/projects/laminas-project",
+                "type": "community_bridge"
+            }
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-03-23T09:12:05+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.18.0",
+        "version_normalized": "1.18.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
+            "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2020-07-14T12:35:20+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.18-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "true/punycode",
+        "version": "v2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/true/php-punycode.git",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "symfony/polyfill-mbstring": "^1.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.7",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2016-11-16T10:37:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TrueBV\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Renan Gonçalves",
+                "email": "renan.saddam@gmail.com"
+            }
+        ],
+        "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+        "homepage": "https://github.com/true/php-punycode",
+        "keywords": [
+            "idna",
+            "punycode"
+        ]
+    }
+]
