@@ -2,7 +2,7 @@
 
 ## Apa Ini ?
 
-Untuk monitor domain (exp date, dll), bisa diinstall di localhost dengan bantuan [Xampp](https://www.apachefriends.org/index.html).
+Untuk monitor domain (exp date, dll), bisa diinstall di localhost dengan bantuan [XAMPP](https://www.apachefriends.org/index.html).
 Script ini berbasis Codeigniter 4.
 
 
